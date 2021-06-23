@@ -10,4 +10,4 @@ DirectX 12 라이브러리를 적용하여 Part6 Box의 예제를 출력하였�
 
 (**특히 L-value!**) 이를 해결하고 정상적으로 출력하였다.
 
-![출력이미지]
+<img src="OutputImage/directx12_2021_6_23_output1.PNG">
