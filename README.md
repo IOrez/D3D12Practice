@@ -8,7 +8,8 @@ DirectX 12 라이브러리를 적용하여 Part6 Box의 예제를 출력하였�
 
 책이 오래전에 출간되어서 몇몇 부분에서 오류가 나타났다. 
 
-<span style="color:red">(**특히 L-value!**)</span> 이를 해결하고 정상적으로 출력하였다. 
+<span style="color:yellow">(**특히 L-value!**)</span> 이를 해결하고 정상적으로 출력하였다. 
+
 
 **변경내용** 
 
