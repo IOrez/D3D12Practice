@@ -16,7 +16,9 @@ DirectX 12를 이용한 3D 게임 프로그래밍 입문의 예제들을 연습�
 
 1.Chapter6 Drawing in Direct3D 의 Box 프로젝트의 BoxApp.cpp를 현재 프로젝트에 추가하였음. 
 
-2.Common 폴더의 내용을 현재 프로젝트에 추가하였음. (**추후 Common폴더의 .cpp, .h 파일의 내용은 직접 작성하기로 함**) 
+2.Common 폴더의 내용을 현재 프로젝트에 추가하였음. 
+
+(**추후 Common폴더의 .cpp, .h 파일의 내용은 직접 작성하기로 함**) 
 
 3.BoxApp.cpp의 현재 프로젝트에 포함된 Common폴더경로에 맞게 #include 헤더경로를 수정함 
 
