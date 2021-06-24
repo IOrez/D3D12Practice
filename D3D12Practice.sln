@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D3D12Practice", "D3D12Practice\D3D12Practice.vcxproj", "{34721606-2268-401C-85F6-40100CE433AD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Init Direct3D", "Init Direct3D\Init Direct3D.vcxproj", "{2ED8D05B-51A3-4956-BFFB-7FA2C2F7BB43}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Init WindowApplication", "Init WindowApplication\Init WindowApplication.vcxproj", "{FAFCCABE-896E-40DF-B4DD-F73C62DDB98B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +25,22 @@ Global
 		{34721606-2268-401C-85F6-40100CE433AD}.Release|x64.Build.0 = Release|x64
 		{34721606-2268-401C-85F6-40100CE433AD}.Release|x86.ActiveCfg = Release|Win32
 		{34721606-2268-401C-85F6-40100CE433AD}.Release|x86.Build.0 = Release|Win32
+		{2ED8D05B-51A3-4956-BFFB-7FA2C2F7BB43}.Debug|x64.ActiveCfg = Debug|x64
+		{2ED8D05B-51A3-4956-BFFB-7FA2C2F7BB43}.Debug|x64.Build.0 = Debug|x64
+		{2ED8D05B-51A3-4956-BFFB-7FA2C2F7BB43}.Debug|x86.ActiveCfg = Debug|Win32
+		{2ED8D05B-51A3-4956-BFFB-7FA2C2F7BB43}.Debug|x86.Build.0 = Debug|Win32
+		{2ED8D05B-51A3-4956-BFFB-7FA2C2F7BB43}.Release|x64.ActiveCfg = Release|x64
+		{2ED8D05B-51A3-4956-BFFB-7FA2C2F7BB43}.Release|x64.Build.0 = Release|x64
+		{2ED8D05B-51A3-4956-BFFB-7FA2C2F7BB43}.Release|x86.ActiveCfg = Release|Win32
+		{2ED8D05B-51A3-4956-BFFB-7FA2C2F7BB43}.Release|x86.Build.0 = Release|Win32
+		{FAFCCABE-896E-40DF-B4DD-F73C62DDB98B}.Debug|x64.ActiveCfg = Debug|x64
+		{FAFCCABE-896E-40DF-B4DD-F73C62DDB98B}.Debug|x64.Build.0 = Debug|x64
+		{FAFCCABE-896E-40DF-B4DD-F73C62DDB98B}.Debug|x86.ActiveCfg = Debug|Win32
+		{FAFCCABE-896E-40DF-B4DD-F73C62DDB98B}.Debug|x86.Build.0 = Debug|Win32
+		{FAFCCABE-896E-40DF-B4DD-F73C62DDB98B}.Release|x64.ActiveCfg = Release|x64
+		{FAFCCABE-896E-40DF-B4DD-F73C62DDB98B}.Release|x64.Build.0 = Release|x64
+		{FAFCCABE-896E-40DF-B4DD-F73C62DDB98B}.Release|x86.ActiveCfg = Release|Win32
+		{FAFCCABE-896E-40DF-B4DD-F73C62DDB98B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
