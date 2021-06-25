@@ -139,6 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="prac_d3dApp.h" />
+    <ClInclude Include="prac_d3dUtil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="prac_d3dApp.cpp" />
+    <ClCompile Include="prac_d3dUtil.cpp" />
+    <ClCompile Include="prac_InitDirect3DApp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
