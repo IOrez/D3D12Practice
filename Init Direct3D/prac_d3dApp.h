@@ -35,6 +35,11 @@ protected:
 
 protected:
 	bool InitMainWindow();
+	bool InitDirect3D();
+
+	void LogAdapters();
+	void LogAdapterOutputs(IDXGIAdapter* adapter);
+	void LogOutputDisplayModes(IDXGIOutput* output, DXGI_FORMAT format);
 
 protected:
 
@@ -42,8 +47,23 @@ protected:
 	
 	HINSTANCE	mhAppInst = nullptr;
 	HWND		mhMainWnd = nullptr;
-	
+
+
+	UINT		m4xMsaaQuality = 0;
+
+	Microsoft::WRL::ComPtr<IDXGIFactory4> mdxgiFactory;
+	Microsoft::WRL::ComPtr<ID3D12Device> md3dDevice;
+
+	Microsoft::WRL::ComPtr<ID3D12Fence> mFence;
+
+
+
+	UINT mRtvDescriptorSize = 0;
+	UINT mDsvDescriptorSize = 0;
+	UINT mCbvSrvUavDescriptorSize = 0;
+
 	std::wstring mMainWndCaption = L"d3d App";
+	DXGI_FORMAT	mBackBufferFormat = DXGI_FORMAT_R8G8B8A8_UNORM;
 
 	int mClientWidth = 800;
 	int mClientHeight = 600;
