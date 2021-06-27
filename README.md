@@ -92,6 +92,10 @@ DirectX 12를 이용한 3D 게임 프로그래밍 입문의 예제들을 연습�
 
 이중에서 2에 대해 간략하게 작성하기로 함
 
+추가 내용은 다음의 경로에서 확인할 수 있음
+
+[DirectX12 초기화(1)](https://iorez.github.io/Categori/DirectX12/DirectX12Beginner/DirectX12%20Init(1).html)
+
 ![#00FF00](https://via.placeholder.com/15/00FF00/000000?text=+) **핵심 코드**
 
 ```c++
@@ -124,14 +128,20 @@ DirectX 12를 이용한 3D 게임 프로그래밍 입문의 예제들을 연습�
 
 --------------------------------------------------------------------------------
 ## 2021년 6월 26일 (4일차)
-### :DirectX12 초기화(2) Device, Fence 생성, 서술자 크기, 4X Mass Quality 획득
+### :DirectX12 초기화(2) Device, Fence 생성, 서술자 크기, 4X MSAA Quality 획득
 
 > DirectX12 초기화 과정으로 Device와 Fence를 생성한다. 
 > 
-> 이후 GPU마다 다른 서술자의 크기를 미리 알아내고 4X Mass에서 지원 가능한 Quality를 점검한다.
+> 이후 GPU마다 다른 서술자의 크기를 미리 알아내고 4X MSAA에서 지원 가능한 Quality를 점검한다.
 > 
 > Device로 부터 적절한 하드웨어 어뎁터를 얻을 수 없다면 소프트웨어 어뎁터 **WARP** 를 지원하게 한다. 
 
 ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **변경내용**
 
-[https://iorez.github.io/Categori/DirectX12/DirectX12Beginner/DirectX12%20Init(2).html](https://iorez.github.io/Categori/DirectX12/DirectX12Beginner/DirectX12%20Init(2).html) 에서 확인
+1. Factory 생성
+2. Fence, 서술자 크기 확인 코드 작성
+3. 4X MSAA 지원 점검 코드 작성
+
+추가 내용은 다음의 경로에서 확인할 수 있음
+
+[DirectX12 초기화(2)](https://iorez.github.io/Categori/DirectX12/DirectX12Beginner/DirectX12%20Init(2).html) 
