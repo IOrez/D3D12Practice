@@ -38,20 +38,6 @@
   <object id="WJYvHId0t0iYAnqnM01+lg" type="umlparameter.uml"/>
   <object id="2FkZYX+3Ik+oSUIZye5uGA" type="umlparameter.uml"/>
   <object id="Vk2cM5OPG0uKIFiqu1LCfg" type="umlparameter.uml"/>
-  <object id="Ue6zi6zhaUaRy26y6FsGIg" type="umloperation.uml"/>
-  <object id="iGpbTXQ9+kqOU3KTSY+JxA" type="umloperation.uml"/>
-  <object id="Hlcg4n3T00+xNM47qvP2eg" type="umloperation.uml"/>
-  <object id="DJc4oZ7CZkWSfbYU0REoEw" type="umlparameter.uml"/>
-  <object id="o0wiCZjEh0W2m7rVCnf1Eg" type="umloperation.uml"/>
-  <object id="1zHj6HMGbk2s9+vUb9klQQ" type="umlparameter.uml"/>
-  <object id="v8UuwcuEbkKcYyjZxH68sw" type="umlparameter.uml"/>
-  <object id="C2gHy/Lc+Eyxey6FTqpRAg" type="umlattribute.uml"/>
-  <object id="rWO2gQt/kUGvJVAJpajwLw" type="umlattribute.uml"/>
-  <object id="fdAPI0LsQkq8rL6jj0CK+A" type="umlattribute.uml"/>
-  <object id="0WT5ZG83V0SgP50U34Dn6Q" type="umlattribute.uml"/>
-  <object id="B20a7EO1MUuVYg7ViClgPQ" type="umlattribute.uml"/>
-  <object id="kfdQqWxm6kWPaXauv/sd8A" type="umlattribute.uml"/>
-  <object id="LXTpcmvVvkiheuoqGPbYGw" type="umlattribute.uml"/>
  </objects>
  <relations/>
  <references>
@@ -92,20 +78,6 @@
   <reference from="QQTkMQYtF0yv2V5UY1JJAw" to="WJYvHId0t0iYAnqnM01+lg" type="operation.parameters.umloperation.umlparameter.uml"/>
   <reference from="QQTkMQYtF0yv2V5UY1JJAw" to="2FkZYX+3Ik+oSUIZye5uGA" type="operation.parameters.umloperation.umlparameter.uml"/>
   <reference from="QQTkMQYtF0yv2V5UY1JJAw" to="Vk2cM5OPG0uKIFiqu1LCfg" type="operation.parameters.umloperation.umlparameter.uml"/>
-  <reference from="JGnLXesp+0qvaH9QD8pkBw" to="Ue6zi6zhaUaRy26y6FsGIg" type="classifier.operations.umlclassifier.umloperation.uml"/>
-  <reference from="JGnLXesp+0qvaH9QD8pkBw" to="iGpbTXQ9+kqOU3KTSY+JxA" type="classifier.operations.umlclassifier.umloperation.uml"/>
-  <reference from="JGnLXesp+0qvaH9QD8pkBw" to="Hlcg4n3T00+xNM47qvP2eg" type="classifier.operations.umlclassifier.umloperation.uml"/>
-  <reference from="Hlcg4n3T00+xNM47qvP2eg" to="DJc4oZ7CZkWSfbYU0REoEw" type="operation.parameters.umloperation.umlparameter.uml"/>
-  <reference from="JGnLXesp+0qvaH9QD8pkBw" to="o0wiCZjEh0W2m7rVCnf1Eg" type="classifier.operations.umlclassifier.umloperation.uml"/>
-  <reference from="o0wiCZjEh0W2m7rVCnf1Eg" to="1zHj6HMGbk2s9+vUb9klQQ" type="operation.parameters.umloperation.umlparameter.uml"/>
-  <reference from="o0wiCZjEh0W2m7rVCnf1Eg" to="v8UuwcuEbkKcYyjZxH68sw" type="operation.parameters.umloperation.umlparameter.uml"/>
-  <reference from="JGnLXesp+0qvaH9QD8pkBw" to="C2gHy/Lc+Eyxey6FTqpRAg" type="classifier.attributes.umlclassifier.umlattribute.uml"/>
-  <reference from="JGnLXesp+0qvaH9QD8pkBw" to="rWO2gQt/kUGvJVAJpajwLw" type="classifier.attributes.umlclassifier.umlattribute.uml"/>
-  <reference from="JGnLXesp+0qvaH9QD8pkBw" to="fdAPI0LsQkq8rL6jj0CK+A" type="classifier.attributes.umlclassifier.umlattribute.uml"/>
-  <reference from="JGnLXesp+0qvaH9QD8pkBw" to="0WT5ZG83V0SgP50U34Dn6Q" type="classifier.attributes.umlclassifier.umlattribute.uml"/>
-  <reference from="JGnLXesp+0qvaH9QD8pkBw" to="B20a7EO1MUuVYg7ViClgPQ" type="classifier.attributes.umlclassifier.umlattribute.uml"/>
-  <reference from="JGnLXesp+0qvaH9QD8pkBw" to="kfdQqWxm6kWPaXauv/sd8A" type="classifier.attributes.umlclassifier.umlattribute.uml"/>
-  <reference from="JGnLXesp+0qvaH9QD8pkBw" to="LXTpcmvVvkiheuoqGPbYGw" type="classifier.attributes.umlclassifier.umlattribute.uml"/>
  </references>
  <object-values>
   <value-owner id="8Ks563A2+kex8iohL16YHg">
@@ -177,8 +149,8 @@
    <value name="order">2</value>
   </value-owner>
   <value-owner id="6skbg1yF2kOdh5vMGpTp+w">
-   <value name="rendering">{&quot;bounds&quot;: &quot;391,68,393,308&quot;,&quot;model&quot;: &quot;JGnLXesp+0qvaH9QD8pkBw&quot;,&quot;name&quot;: &quot;D3DApp&quot;,&quot;render&quot;: [{&quot;bounds&quot;: &quot;391,68,393,308&quot;,&quot;type&quot;: &quot;Rect&quot;},{&quot;bounds&quot;: &quot;565,73,45,13&quot;,&quot;fontStyle&quot;: &quot;2&quot;,&quot;text&quot;: &quot;D3DApp&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;391,91,393,175&quot;,&quot;fillColor&quot;: &quot;0,0,0,0&quot;,&quot;type&quot;: &quot;Rect&quot;},{&quot;bounds&quot;: &quot;396,94,87,13&quot;,&quot;fontStyle&quot;: &quot;4&quot;,&quot;text&quot;: &quot;#mApp: D3DApp*&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,107,123,13&quot;,&quot;text&quot;: &quot;#mhAppInst: HINSTANCE&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,120,104,13&quot;,&quot;text&quot;: &quot;#mhMainWnd: HWND&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,133,229,13&quot;,&quot;text&quot;: &quot;#mMainWndCaption: std::wstring = L\&quot;d3d App\&quot;&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,146,122,13&quot;,&quot;text&quot;: &quot;#mClientWidth: int = 800&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,159,125,13&quot;,&quot;text&quot;: &quot;#mClientHeight: int = 600&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,172,138,13&quot;,&quot;text&quot;: &quot;#m4xMsaaQuality: UINT = 0&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,185,200,13&quot;,&quot;text&quot;: &quot;#mdxgiFactory: ComPtr&lt;IDXGIFactory4&gt;&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,198,192,13&quot;,&quot;text&quot;: &quot;#md3dDevice: ComPtr&lt;ID3D12Device&gt;&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,211,168,13&quot;,&quot;text&quot;: &quot;#mFence: ComPtr&lt;ID3D12Fence&gt;&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,224,148,13&quot;,&quot;text&quot;: &quot;#mRtvDesciptorSize: UINT = 0&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,237,149,13&quot;,&quot;text&quot;: &quot;#mDsvDesciptorSize: UINT = 0&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,250,189,13&quot;,&quot;text&quot;: &quot;#mCbvSrvUavDescriptorSize: UINT = 0&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;391,266,393,110&quot;,&quot;fillColor&quot;: &quot;0,0,0,0&quot;,&quot;type&quot;: &quot;Rect&quot;},{&quot;bounds&quot;: &quot;396,269,119,13&quot;,&quot;text&quot;: &quot;#InitMainWindow(): void&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,282,54,13&quot;,&quot;text&quot;: &quot;+Run(): int&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,295,88,13&quot;,&quot;text&quot;: &quot;#OnResize(): void&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,308,355,13&quot;,&quot;text&quot;: &quot;#MsgProc(hWnd: HWND, msg: UINT, wParam: WPARAM, lParam: LParam)&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,321,100,13&quot;,&quot;text&quot;: &quot;#InitDirect3D(): bool&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,334,104,13&quot;,&quot;text&quot;: &quot;#LogAdaptors(): void&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,347,256,13&quot;,&quot;text&quot;: &quot;#LogAdapterOutputs(adapter: IDXGIAdapter*): void&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,360,383,13&quot;,&quot;text&quot;: &quot;#LogOutputDisplayModes(output: IDXGIOutput*, format: DXGI_FORMAT): void&quot;,&quot;type&quot;: &quot;Text&quot;}],&quot;type&quot;: &quot;UMLClassView&quot;}</value>
-   <value name="bounds">391,68,393,308</value>
+   <value name="rendering">{&quot;bounds&quot;: &quot;391,68,365,165&quot;,&quot;model&quot;: &quot;JGnLXesp+0qvaH9QD8pkBw&quot;,&quot;name&quot;: &quot;D3DApp&quot;,&quot;render&quot;: [{&quot;bounds&quot;: &quot;391,68,365,165&quot;,&quot;type&quot;: &quot;Rect&quot;},{&quot;bounds&quot;: &quot;551,73,45,13&quot;,&quot;fontStyle&quot;: &quot;2&quot;,&quot;text&quot;: &quot;D3DApp&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;391,91,365,84&quot;,&quot;fillColor&quot;: &quot;0,0,0,0&quot;,&quot;type&quot;: &quot;Rect&quot;},{&quot;bounds&quot;: &quot;396,94,87,13&quot;,&quot;fontStyle&quot;: &quot;4&quot;,&quot;text&quot;: &quot;#mApp: D3DApp*&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,107,123,13&quot;,&quot;text&quot;: &quot;#mhAppInst: HINSTANCE&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,120,104,13&quot;,&quot;text&quot;: &quot;#mhMainWnd: HWND&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,133,229,13&quot;,&quot;text&quot;: &quot;#mMainWndCaption: std::wstring = L\&quot;d3d App\&quot;&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,146,122,13&quot;,&quot;text&quot;: &quot;#mClientWidth: int = 800&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,159,125,13&quot;,&quot;text&quot;: &quot;#mClientHeight: int = 600&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;391,175,365,58&quot;,&quot;fillColor&quot;: &quot;0,0,0,0&quot;,&quot;type&quot;: &quot;Rect&quot;},{&quot;bounds&quot;: &quot;396,178,119,13&quot;,&quot;text&quot;: &quot;#InitMainWindow(): void&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,191,54,13&quot;,&quot;text&quot;: &quot;+Run(): int&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,204,88,13&quot;,&quot;text&quot;: &quot;#OnResize(): void&quot;,&quot;type&quot;: &quot;Text&quot;},{&quot;bounds&quot;: &quot;396,217,355,13&quot;,&quot;text&quot;: &quot;#MsgProc(hWnd: HWND, msg: UINT, wParam: WPARAM, lParam: LParam)&quot;,&quot;type&quot;: &quot;Text&quot;}],&quot;type&quot;: &quot;UMLClassView&quot;}</value>
+   <value name="bounds">391,68,365,165</value>
   </value-owner>
   <value-owner id="PDGO5aYlQU+BeFsTVVMTlQ">
    <value name="name">InitMainWindow</value>
@@ -261,91 +233,6 @@
    <value name="name">lParam</value>
    <value name="order">5</value>
    <value name="type">LParam</value>
-  </value-owner>
-  <value-owner id="Ue6zi6zhaUaRy26y6FsGIg">
-   <value name="name">InitDirect3D</value>
-   <value name="order">12</value>
-   <value name="visibility">2</value>
-   <value name="returnType">bool</value>
-  </value-owner>
-  <value-owner id="iGpbTXQ9+kqOU3KTSY+JxA">
-   <value name="name">LogAdaptors</value>
-   <value name="order">13</value>
-   <value name="visibility">2</value>
-   <value name="returnType">void</value>
-  </value-owner>
-  <value-owner id="Hlcg4n3T00+xNM47qvP2eg">
-   <value name="name">LogAdapterOutputs</value>
-   <value name="order">14</value>
-   <value name="visibility">2</value>
-   <value name="returnType">void</value>
-  </value-owner>
-  <value-owner id="DJc4oZ7CZkWSfbYU0REoEw">
-   <value name="name">adapter</value>
-   <value name="order">2</value>
-   <value name="type">IDXGIAdapter*</value>
-  </value-owner>
-  <value-owner id="o0wiCZjEh0W2m7rVCnf1Eg">
-   <value name="name">LogOutputDisplayModes</value>
-   <value name="order">15</value>
-   <value name="visibility">2</value>
-   <value name="returnType">void</value>
-  </value-owner>
-  <value-owner id="1zHj6HMGbk2s9+vUb9klQQ">
-   <value name="name">output</value>
-   <value name="order">2</value>
-   <value name="type">IDXGIOutput*</value>
-  </value-owner>
-  <value-owner id="v8UuwcuEbkKcYyjZxH68sw">
-   <value name="name">format</value>
-   <value name="order">3</value>
-   <value name="type">DXGI_FORMAT</value>
-  </value-owner>
-  <value-owner id="C2gHy/Lc+Eyxey6FTqpRAg">
-   <value name="name">m4xMsaaQuality</value>
-   <value name="order">16</value>
-   <value name="visibility">2</value>
-   <value name="type">UINT</value>
-   <value name="initialValue">0</value>
-  </value-owner>
-  <value-owner id="rWO2gQt/kUGvJVAJpajwLw">
-   <value name="name">mdxgiFactory</value>
-   <value name="order">17</value>
-   <value name="visibility">2</value>
-   <value name="type">ComPtr&lt;IDXGIFactory4&gt;</value>
-  </value-owner>
-  <value-owner id="fdAPI0LsQkq8rL6jj0CK+A">
-   <value name="name">md3dDevice</value>
-   <value name="order">18</value>
-   <value name="visibility">2</value>
-   <value name="type">ComPtr&lt;ID3D12Device&gt;</value>
-  </value-owner>
-  <value-owner id="0WT5ZG83V0SgP50U34Dn6Q">
-   <value name="name">mFence</value>
-   <value name="order">19</value>
-   <value name="visibility">2</value>
-   <value name="type">ComPtr&lt;ID3D12Fence&gt;</value>
-  </value-owner>
-  <value-owner id="B20a7EO1MUuVYg7ViClgPQ">
-   <value name="name">mRtvDesciptorSize</value>
-   <value name="order">20</value>
-   <value name="visibility">2</value>
-   <value name="type">UINT</value>
-   <value name="initialValue">0</value>
-  </value-owner>
-  <value-owner id="kfdQqWxm6kWPaXauv/sd8A">
-   <value name="name">mDsvDesciptorSize</value>
-   <value name="order">21</value>
-   <value name="visibility">2</value>
-   <value name="type">UINT</value>
-   <value name="initialValue">0</value>
-  </value-owner>
-  <value-owner id="LXTpcmvVvkiheuoqGPbYGw">
-   <value name="name">mCbvSrvUavDescriptorSize</value>
-   <value name="order">22</value>
-   <value name="visibility">2</value>
-   <value name="type">UINT</value>
-   <value name="initialValue">0</value>
   </value-owner>
  </object-values>
  <relation-values/>
