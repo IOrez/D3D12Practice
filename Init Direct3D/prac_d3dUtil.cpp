@@ -4,7 +4,7 @@
 
 DxException::DxException(HRESULT hr, const std::wstring& function, const std::wstring& filename, int lineNumber)
 	:ErrorCode(hr),
-	FunctionName(FunctionName),
+	FunctionName(function),
 	Filename(filename),
 	LineNumber(lineNumber)
 {

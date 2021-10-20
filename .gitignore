@@ -1,0 +1,17 @@
+*.ipch
+*.suo
+*.db
+*.db-shm
+*.db-wal
+*.opendb
+*.obj
+*.log
+*.tlog
+*.pdb
+*.exe
+*.idb
+*.sqlite
+
+
+
+/Debug

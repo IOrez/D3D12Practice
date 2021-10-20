@@ -54,6 +54,8 @@ bool D3DApp::Initialize()
 {
 	if (!InitMainWindow())
 		return false;
+	if (!InitDirect3D())
+		return false;
 
 	OnResize();
 
@@ -325,8 +327,8 @@ void D3DApp::CreateSwapChain()
 	sd.BufferDesc.Format = mBackBufferFormat;
 	sd.BufferDesc.ScanlineOrdering = DXGI_MODE_SCANLINE_ORDER_UNSPECIFIED;
 	sd.BufferDesc.Scaling = DXGI_MODE_SCALING_UNSPECIFIED;
-	sd.SampleDesc.Count = m4xMsaaQuality ? 4 : 1;
-	sd.SampleDesc.Quality = m4xMsaaQuality ? (m4xMsaaQuality - 1) : 0;
+	sd.SampleDesc.Count = m4xMsaaState ? 4 : 1;
+	sd.SampleDesc.Quality = m4xMsaaState ? (m4xMsaaQuality - 1) : 0;
 	sd.BufferUsage = DXGI_USAGE_RENDER_TARGET_OUTPUT;
 	sd.BufferCount = SwapChainBufferCount;
 	sd.OutputWindow = mhMainWnd;
@@ -334,12 +336,16 @@ void D3DApp::CreateSwapChain()
 	sd.SwapEffect = DXGI_SWAP_EFFECT_FLIP_DISCARD;
 	sd.Flags = DXGI_SWAP_CHAIN_FLAG_ALLOW_MODE_SWITCH;
 
-	ThrowIfFailed(mdxgiFactory->CreateSwapChain(
-		mCommandQueue.Get(),
-		&sd,
-		mSwapChain.GetAddressOf()
-	));
-
+	try {
+		ThrowIfFailed(mdxgiFactory->CreateSwapChain(
+			mCommandQueue.Get(),
+			&sd,
+			mSwapChain.GetAddressOf()
+		));
+	}
+	catch (DxException& e) {
+		MessageBox(nullptr, (LPCWSTR)e.ToString().c_str(), L"HR Failed", MB_OK);
+	}
 }
 
 void D3DApp::FlushCommandQueue()
@@ -350,7 +356,7 @@ void D3DApp::FlushCommandQueue()
 
 	if (mFence->GetCompletedValue() < mCurrentFence)
 	{
-		HANDLE eventHandle = CreateEventEx(nullptr, false, false, EVENT_ALL_ACCESS);
+		HANDLE eventHandle = CreateEventEx(nullptr, (LPCWSTR)false, false, EVENT_ALL_ACCESS);
 
 		ThrowIfFailed(mFence->SetEventOnCompletion(mCurrentFence, eventHandle));
 		WaitForSingleObject(eventHandle, INFINITE);
@@ -414,6 +420,9 @@ void D3DApp::LogAdapterOutputs(IDXGIAdapter* adapter)
 		OutputDebugString(text.c_str());
 
 		LogOutputDisplayModes(output, mBackBufferFormat);
+
+		ReleaseCom(output);
+		++i;
 	}
 }
 
@@ -439,4 +448,6 @@ void D3DApp::LogOutputDisplayModes(IDXGIOutput* output, DXGI_FORMAT format)
 
 		::OutputDebugString(text.c_str());
 	}
+
+	modeList.clear();
 }
